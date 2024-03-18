@@ -35,8 +35,6 @@ module.exports = {
       "3": '#5c80bc',
       "4": '#cdd1c4',
     },
-  },
-  plugins: [
-  ],
+  }
 }
 

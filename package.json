@@ -4,7 +4,6 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build:prod": "webpack --env mode=production",
     "build:dev": "webpack --env mode=development --watch",
     "build:serve": "webpack serve --env mode=development",
@@ -22,7 +21,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "@state-street/state-street": "C:/Users/beetn/Society4/state-street/build",
-    "lodash": "^4.17.21"
+    "@state-street/state-street": "C:/Users/beetn/Society4/state-street/build"
   }
 }
