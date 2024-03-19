@@ -21,6 +21,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "@state-street/state-street": "C:/Users/beetn/Society4/state-street/build"
+    "@state-street/state-street": "^1.0.0"
   }
 }

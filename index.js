@@ -1,4 +1,4 @@
-import { State, parseSST } from '@state-street/state-street'
+import { State } from '@state-street/state-street'
 import './output.css'
 import { Home } from './components/Home'
 import { Projects, Project } from './components/Projects'
@@ -42,7 +42,7 @@ const methods = {
 
 
 const TAB_CLASS_LIST = "text-4 hover:text-3 active:text-1 font-big-noodle";
-const template = parseSST(/*html*/`
+const template = /*html*/`
     <div class="absolute top-0 bottom-0 right-0 left-0">
         <div class="flex w-full bg-2 justify-between sticky top-0">
             <div class="flex justify-start">
@@ -55,7 +55,7 @@ const template = parseSST(/*html*/`
         </div>
         <Content/>
     </div>
-    `, components);
+    `
 
 window.onload = () => {
     new State(template, data, components, methods);
